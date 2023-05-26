@@ -2,6 +2,24 @@
 Recurrent Neural Network (RNN) was used to predict Uber requests in 4 major districts of New York during a 1-hour time interval.
 
 
+Dataset Discription:
+
+borough: NYC's borough.
+ pickups: Number of pickups for the period.
+ spd: Wind speed in miles/hour.
+ vsb: Visibility in Miles to nearest tenth.
+ temp: temperature in Fahrenheit.
+ dewp: Dew point in Fahrenheit.
+ slp: Sea level pressure.
+ pcp01: 1-hour liquid precipitation.
+ pcp06: 6-hour liquid precipitation.
+ pcp24: 24-hour liquid precipitation.
+ sd: Snow depth in inches.
+ hday: Being a holiday (Y) or not (N).
+ hr_sin, hr_cos: Hour of the day
+ day_sin, day_cos: Day of the week
+
+
 We did pre-processing on our dataset before apply it on our proposed network. There are
 four columns related to hour and day. These aforementioned columns are in form of sine
 and cosine. So, we plotted the dataset and results are shown in fig.1, fig.2.
